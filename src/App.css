@@ -1,0 +1,50 @@
+body {
+  background-color: #221f1f !important;
+}
+h1,
+h2,
+h4,
+h5,
+p,
+hr,
+footer,
+.icons,
+#kids,
+.footer-links p,
+.footer-links a,
+.footer-button,
+.copyright {
+  color: #f5f5f1 !important;
+}
+
+.icons {
+  margin: 0 0.8em;
+  font-size: 1.2em;
+}
+
+.navbar-nav {
+  font-size: 90%;
+}
+
+.footer-icon,
+.footer-links,
+.footer-button,
+.copyright {
+  color: #838383 !important;
+}
+
+.footer-links p {
+  margin-bottom: 0.3em;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
+
+.col img {
+  transition: transform 0.2s;
+}
+
+.col img:hover {
+  transform: scale(1.1);
+}
