@@ -13,27 +13,20 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="d-flex flex-column h-100">
-          <header>
-            <MyNav />
-          </header>
-          <div className="flex-grow-1">
-            <main>
-              <Routes>
-                <Route path="/" element={<GalleriaFilm />} />
-                <Route path="/TV-Show" element={<TVShows />} />
-                <Route path="/Profile" element={<PaginaProfilo />} />
-                <Route
-                  path="/movie-details/:movieId"
-                  element={<MovieDetails />}
-                />
-              </Routes>
-            </main>
-          </div>
-          <footer>
-            <MyFooter />
-          </footer>
-        </div>
+        <header>
+          <MyNav />
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<GalleriaFilm />} />
+            <Route path="/TV-Show" element={<TVShows />} />
+            <Route path="/Profile" element={<PaginaProfilo />} />
+            <Route path="/movie-details/:movieId" element={<MovieDetails />} />
+          </Routes>
+        </main>
+        <footer>
+          <MyFooter />
+        </footer>
       </BrowserRouter>
     </>
   );

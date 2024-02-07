@@ -1,6 +1,6 @@
 const TVShows = () => (
   <div>
-    <h1 className="text-center">PAGINA TVSHOWS!</h1>
+    <h1 className="text-center my-5">PAGINA TVSHOWS!</h1>
   </div>
 );
 

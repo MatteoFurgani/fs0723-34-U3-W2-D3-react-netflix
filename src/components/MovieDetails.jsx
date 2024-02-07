@@ -59,7 +59,7 @@ const MovieDetails = () => {
   return (
     <div className="d-flex justify-content-center text-light">
       {movieDetailObject && (
-        <Card style={{ width: "18rem" }}>
+        <Card className="border-0" style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
             src={movieDetailObject.Poster}
